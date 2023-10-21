@@ -275,9 +275,19 @@ label,
 	color: var(--wp--preset--color--foreground);
 }
 
-.has-primary-background-color,
+.has-foreground-background-color,
+.has-primary-background-color {
+	color: var(--wp--preset--color--white);
+}
+
 .has-secondary-background-color,
 .has-tertiary-background-color,
-.has-foreground-background-color {
-	color: var(--wp--preset--color--white);
+.has-quaternary-background-color,
+.has-quinary-background-color,
+.has-senary-background-color,
+.has-septenary-background-color,
+.has-octonary-background-color,
+.has-nonary-background-color,
+.has-background-background-color {
+	color: var(--wp--preset--color--foreground);
 }
