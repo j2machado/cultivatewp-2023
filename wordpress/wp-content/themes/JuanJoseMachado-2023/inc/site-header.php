@@ -2,7 +2,7 @@
 /**
  * Site Header
  *
- * @package      JuanJoseMachado-2023
+ * @package      BEStarter
  * @subpackage   site-header/01
  * @author       Bill Erickson
  * @since        1.0.0
@@ -15,7 +15,7 @@
 function be_register_menus() {
 	register_nav_menus(
 		[
-			'primary' => esc_html__( 'Primary Navigation Menu', 'JuanJoseMachado-2023_textdomain' ),
+			'primary' => esc_html__( 'Primary Navigation Menu', 'bestarter_textdomain' ),
 		]
 	);
 
@@ -26,7 +26,7 @@ add_action( 'after_setup_theme', 'be_register_menus' );
  * Site Header
  */
 function be_site_header() {
-	echo '<a href="' . esc_url( home_url() ) . '" rel="home" class="site-header__logo" aria-label="' . esc_attr( get_bloginfo( 'name' ) ) . ' Home">' . get_bloginfo( 'name' ) . '</a>';
+	echo '<a href="' . esc_url( home_url() ) . '" rel="home" class="site-header__logo" aria-label="' . esc_attr( get_bloginfo( 'name' ) ) . ' Home"> <img src="'. get_stylesheet_directory_uri() .'/assets/logos/logo-header.svg" alt="'. get_bloginfo( 'name' ) .'"></a>';
 
 	echo '<div class="site-header__toggles">';
 	echo be_mobile_menu_toggle();
