@@ -2,7 +2,7 @@
 /**
  * Social Links block
  *
- * @package      BEStarter
+ * @package      JuanJoseMachado-2023
  * @subpackage   blocks/social-links/01
  * @author       Bill Erickson
  * @since        1.0.0

@@ -2,7 +2,7 @@
 /**
  * Site Footer
  *
- * @package      BEStarter
+ * @package      JuanJoseMachado-2023
  * @subpackage   site-header/01
  * @author       Bill Erickson
  * @since        1.0.0
