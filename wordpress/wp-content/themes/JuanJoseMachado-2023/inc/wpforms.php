@@ -133,7 +133,7 @@ function be_wpforms_theme_locations_column( $columns ) {
 	foreach ( $columns as $key => $value ) {
 		$new_columns[ $key ] = $value;
 		if ( 'name' === $key ) {
-			$new_columns['be_theme_location'] = __( 'Theme Location', 'bestarter_textdomain' );
+			$new_columns['be_theme_location'] = __( 'Theme Location', 'JuanJoseMachado-2023_textdomain' );
 		}
 	}
 	return $new_columns;

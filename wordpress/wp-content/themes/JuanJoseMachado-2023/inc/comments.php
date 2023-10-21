@@ -57,10 +57,10 @@ function comment_navigation( $location = '' ) {
 	}
 
 	$output  = '<nav id="comment-nav-' . esc_attr( $location ) . '" class="navigation comment-navigation" role="navigation">';
-	$output .= '<h3 class="screen-reader-text">' . esc_html__( 'Comment navigation', 'bestarter_textdomain' ) . '</h3>';
+	$output .= '<h3 class="screen-reader-text">' . esc_html__( 'Comment navigation', 'JuanJoseMachado-2023_textdomain' ) . '</h3>';
 	$output .= '<div class="nav-links">';
-	$output .= '<div class="nav-previous">' . get_previous_comments_link( esc_html__( 'Older Comments', 'bestarter_textdomain' ) ) . '</div>';
-	$output .= '<div class="nav-next">' . get_next_comments_link( esc_html__( 'Newer Comments', 'bestarter_textdomain' ) ) . '</div>';
+	$output .= '<div class="nav-previous">' . get_previous_comments_link( esc_html__( 'Older Comments', 'JuanJoseMachado-2023_textdomain' ) ) . '</div>';
+	$output .= '<div class="nav-next">' . get_next_comments_link( esc_html__( 'Newer Comments', 'JuanJoseMachado-2023_textdomain' ) ) . '</div>';
 	$output .= '</div>';
 	$output .= '</nav>';
 
@@ -141,7 +141,7 @@ add_filter( 'get_comment_author_link', __NAMESPACE__ . '\\remove_url_from_existi
  */
 function comment_form_button_class( $args ) {
 	$args['class_submit'] = 'submit wp-element-button';
-	$args['title_reply'] = __( 'Leave a comment', 'bestarter_textdomain' );
+	$args['title_reply'] = __( 'Leave a comment', 'JuanJoseMachado-2023_textdomain' );
 	$args['title_reply_before'] = str_replace( 'h3', 'h2', $args['title_reply_before'] );
 	$args['title_reply_after'] = str_replace( 'h3', 'h2', $args['title_reply_after'] );
 	return $args;

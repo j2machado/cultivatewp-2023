@@ -30,18 +30,18 @@ function block_area_name( $block_area ) {
  */
 function register_cpt() {
 	$labels = [
-		'name'               => __( 'Block Areas', 'bestarter_textdomain' ),
-		'singular_name'      => __( 'Block Area', 'bestarter_textdomain' ),
-		'add_new'            => __( 'Add New', 'bestarter_textdomain' ),
-		'add_new_item'       => __( 'Add New Block Area', 'bestarter_textdomain' ),
-		'edit_item'          => __( 'Edit Block Area', 'bestarter_textdomain' ),
-		'new_item'           => __( 'New Block Area', 'bestarter_textdomain' ),
-		'view_item'          => __( 'View Block Area', 'bestarter_textdomain' ),
-		'search_items'       => __( 'Search Block Areas', 'bestarter_textdomain' ),
-		'not_found'          => __( 'No Block Areas found', 'bestarter_textdomain' ),
-		'not_found_in_trash' => __( 'No Block Areas found in Trash', 'bestarter_textdomain' ),
-		'parent_item_colon'  => __( 'Parent Block Area:', 'bestarter_textdomain' ),
-		'menu_name'          => __( 'Block Areas', 'bestarter_textdomain' ),
+		'name'               => __( 'Block Areas', 'JuanJoseMachado-2023_textdomain' ),
+		'singular_name'      => __( 'Block Area', 'JuanJoseMachado-2023_textdomain' ),
+		'add_new'            => __( 'Add New', 'JuanJoseMachado-2023_textdomain' ),
+		'add_new_item'       => __( 'Add New Block Area', 'JuanJoseMachado-2023_textdomain' ),
+		'edit_item'          => __( 'Edit Block Area', 'JuanJoseMachado-2023_textdomain' ),
+		'new_item'           => __( 'New Block Area', 'JuanJoseMachado-2023_textdomain' ),
+		'view_item'          => __( 'View Block Area', 'JuanJoseMachado-2023_textdomain' ),
+		'search_items'       => __( 'Search Block Areas', 'JuanJoseMachado-2023_textdomain' ),
+		'not_found'          => __( 'No Block Areas found', 'JuanJoseMachado-2023_textdomain' ),
+		'not_found_in_trash' => __( 'No Block Areas found in Trash', 'JuanJoseMachado-2023_textdomain' ),
+		'parent_item_colon'  => __( 'Parent Block Area:', 'JuanJoseMachado-2023_textdomain' ),
+		'menu_name'          => __( 'Block Areas', 'JuanJoseMachado-2023_textdomain' ),
 	];
 
 	$args = [

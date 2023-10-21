@@ -15,7 +15,7 @@
 function be_register_menus() {
 	register_nav_menus(
 		[
-			'primary' => esc_html__( 'Primary Navigation Menu', 'bestarter_textdomain' ),
+			'primary' => esc_html__( 'Primary Navigation Menu', 'JuanJoseMachado-2023_textdomain' ),
 		]
 	);
 

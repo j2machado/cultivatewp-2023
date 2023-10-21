@@ -37,7 +37,7 @@ function register_options_page() {
 	if ( function_exists( 'acf_add_options_page' ) ) {
 		acf_add_options_page(
 			[
-				'title'      => __( 'Site Options', 'bestarter_textdomain' ),
+				'title'      => __( 'Site Options', 'JuanJoseMachado-2023_textdomain' ),
 				'capability' => 'manage_options',
 			]
 		);

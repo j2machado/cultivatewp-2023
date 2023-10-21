@@ -12,12 +12,12 @@ use BEStarter\Block_Areas;
 
 echo '<section class="no-results not-found">';
 
-echo '<header class="entry-header"><h1 class="entry-title">' . esc_html__( 'Nothing Found', 'bestarter_textdomain' ) . '</h1></header>';
+echo '<header class="entry-header"><h1 class="entry-title">' . esc_html__( 'Nothing Found', 'JuanJoseMachado-2023_textdomain' ) . '</h1></header>';
 echo '<div class="entry-content">';
 
 if ( is_search() ) {
 
-	echo '<p>' . esc_html__( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'bestarter_textdomain' ) . '</p>';
+	echo '<p>' . esc_html__( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'JuanJoseMachado-2023_textdomain' ) . '</p>';
 	get_search_form();
 
 } else {
@@ -25,7 +25,7 @@ if ( is_search() ) {
 	$output = Block_Areas\show( '404', $echo = false );
 
 	if ( empty( $output ) ) {
-		echo '<p>' . esc_html__( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'bestarter_textdomain' ) . '</p>';
+		echo '<p>' . esc_html__( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'JuanJoseMachado-2023_textdomain' ) . '</p>';
 		get_search_form();
 	} else {
 		echo $output;

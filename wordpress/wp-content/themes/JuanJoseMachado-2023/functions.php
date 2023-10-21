@@ -67,7 +67,7 @@ if ( ! function_exists( 'be_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 */
-		load_theme_textdomain( 'bestarter_textdomain', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'JuanJoseMachado-2023_textdomain', get_template_directory() . '/languages' );
 
 		// Editor Styles.
 		add_theme_support( 'editor-styles' );
