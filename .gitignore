@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Do not ignore the .gitignore file
+!.gitignore
+
+# Do not ignore the custom theme directory
+!/wordpress/wp-content/themes/JuanJoseMachado-2023/**
