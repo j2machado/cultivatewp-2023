@@ -21,53 +21,48 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#0000EE",
+					"color": "#00607A",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#00FFFF",
+					"color": "#F9C9EF",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#00FFFF",
+					"color": "#F7CAB6",
 					"name": "Tertiary"
 				},
 				{
 					"slug": "quaternary",
-					"color": "#00FFFF",
+					"color": "#FDF5F1",
 					"name": "Quaternary"
 				},
 				{
 					"slug": "quinary",
-					"color": "#00FFFF",
+					"color": "#ED8CDF",
 					"name": "Quinary"
 				},
 				{
 					"slug": "senary",
-					"color": "#00FFFF",
+					"color": "#85EACC",
 					"name": "Senary"
 				},
 				{
 					"slug": "septenary",
-					"color": "#00FFFF",
+					"color": "#DAFE86",
 					"name": "Septenary"
 				},
 				{
 					"slug": "octonary",
-					"color": "#00FFFF",
+					"color": "#F1A17E",
 					"name": "Octonary"
 				},
 				{
 					"slug": "nonary",
-					"color": "#00FFFF",
+					"color": "#E3DFDD",
 					"name": "Nonary"
-				},
-				{
-					"slug": "denary",
-					"color": "#00FFFF",
-					"name": "Denary"
 				}
 			],
 			"gradients": [],
