@@ -1,0 +1,36 @@
+.content-image-block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Mobile View: Stacked */
+  .content-image-block .wp-block {
+    flex-basis: 100%;
+  }
+  
+  /* Image and Content Styles */
+  .content-image-block .wp-block-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content-image-block .wp-block-group {
+    flex: 1;
+  }
+  
+  /* Desktop View: Side by Side */
+  @media (min-width: 768px) {
+    .content-image-block {
+      flex-wrap: nowrap;
+    }
+  
+    .content-image-block .wp-block {
+      flex-basis: 50%;
+    }
+  }
+  
+  /* Reversed Layout */
+  .is-reversed .content-image-block {
+    flex-direction: row-reverse;
+  }
+  
